@@ -1,0 +1,20 @@
+* {
+  .confiramation-box-body {
+    display: grid;
+    grid-template-columns: 30px auto;
+    grid-gap: 10px;
+    align-items: center;
+    height: 50px;
+    &.wraning {
+      path {
+        color: $wraning-color;
+      }
+    }
+    &.success {
+      color: $wraning-color;
+    }
+    &.failed {
+      color: $error-color;
+    }
+  }
+}

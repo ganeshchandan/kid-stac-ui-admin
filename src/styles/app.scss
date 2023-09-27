@@ -1,0 +1,31 @@
+* {
+  .app-container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 40px calc(100% - 40px);
+    .app-header {
+      border-bottom: 1px solid $border_color;
+    }
+  }
+
+  .app-spinner {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.2);
+    top: 0;
+    left: 0;
+  }
+  .app-content {
+    display: grid;
+    display: grid;
+    grid-template-columns: 200px auto;
+    .app-content-panel {
+      border-right: 1px solid $border_color;
+    }
+  }
+}

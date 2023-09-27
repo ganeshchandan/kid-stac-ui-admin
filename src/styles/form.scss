@@ -1,0 +1,14 @@
+* {
+  .form-buttons {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: var(--bs-modal-header-border-width) solid
+      var(--bs-modal-header-border-color);
+    > button {
+      width: 90px;
+    }
+  }
+}
